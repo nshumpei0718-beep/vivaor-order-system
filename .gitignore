@@ -216,3 +216,11 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+# 履歴や一時的なCSVファイルを除外する場合
+sales_history.csv
+company_presets.csv
+bank_presets.csv
+
+# Pythonのキャッシュファイル
+__pycache__/
+*.pyc
